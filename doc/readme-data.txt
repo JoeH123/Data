@@ -87,11 +87,17 @@ Meta data on (album and single) releases to Spotify
      Artistname - Name of the artist
      Albumname - Name of the album
      Albumid - Spotify Album ID
-     Releasetype - Single versus album /@Naz, can you add?
+     Releasetype - Basically single versus album. Four categories based on whether
+     		   the release is a single or album and whether it is missing
+		   genre information:
+     		   "album": album w/ genre info.
+		   "other": album w/o genre info.
+		   "album-single": single w/ genre info
+		   "other-single": single w/o genre info
      Artistrank - Spotify popularity score of artist
                   (probably at time of
                   album release)
-     Playcountrank - NA (@Naz?)
+     Playcountrank - Number of tracks
      Genre cluster - Genre, as clustered by maintainer of
                      everynoise.com; raw genre names
                      probably come from the web API,
@@ -342,7 +348,7 @@ Meta data on (album and single) releases to Spotify
 5.1  Has the dataset been used for any tasks already?
      If so, please provide a description.
 
-     Joint research with Nazil Alagoz and George Knox.
+     Joint research with Nazli Alagoz and George Knox.
      "Platform Incentives and Commercial Music Production".
 
 5.2  Is there a repository that links to any or all papers or systems
