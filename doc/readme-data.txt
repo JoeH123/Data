@@ -37,7 +37,7 @@ Meta data on (album and single) releases to Spotify
      the name of the grantor and the grant name and number.
 
      Netherlands Organisation for Scientific Research,
-	   Veni grant by Hannes Datta (NWO 453-09-004).
+     Veni grant by Hannes Datta (NWO 453-09-004).
 
 1.4  Any other comments?
 
@@ -75,8 +75,14 @@ Meta data on (album and single) releases to Spotify
      all releases that became available during the
      collection period.
 
-     Everynoise.com is/was a website maintained by an
-     employee of Spotify, and it relies/relied on the
+     Everynoise.com is an independent project, bought by 
+     Spotify in 2014, to bring insights into "the rankings and genres of
+     newly released albums on Spotify" (2020, Daily Dot --> see PDF).
+     
+     The project "is described by Spotify as an “experimental attempt at an 
+     algorithmic organisation of the week’s new releases” (2015, The Guardian
+     --> see PDF). The particular section of the website ("sorting hat closet")
+     became unavailable towards the end of 2018. The tool relied on the
      Spotify WebAPI to retrieve that data.
 
 2.4  What data does each instance consist of?
