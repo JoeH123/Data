@@ -1,3 +1,5 @@
 **.DS_Store
 **/release
+DVUploader.jar
+credentials.txt
 **/rawdata-confidential
