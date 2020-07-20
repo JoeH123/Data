@@ -19,6 +19,19 @@ __Use this repository to *maintain* the dataset.__
 * Install Java
 * Download the most recent version of the [Dataverse uploading tool](https://github.com/GlobalDataverseCommunityConsortium/dataverse-uploader/) (run `bash init.sh` on Mac, or paste the link contained in the file in your browser on Windows)
 
+
+## File and directory structure
+
+```
+├── credentials.txt         <- stores API credentials
+├── doc                     <- put any documentation here
+│   └── readme-template.txt (start from this template)
+├── rawdata-confidential    <- folder with confidential data
+├── release                 <- folder with public releases
+└── src                     <- source code to transform confidential
+                               data for public release
+```
+
 ## Workflow
 
 * __Archive confidential raw data on Dataverse__: `push_raw.sh` pushes the raw data to Dataverse (done once, `bash push_raw.sh`; or paste code into your command prompt on Windows). Remember to __restrict access to the folder__, by editing the file/directory permissions directly on Dataverse.
