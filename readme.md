@@ -4,14 +4,13 @@ This is a repository which hosts the source code to prepare the public version o
 
 Datta, Hannes, 2020, "(Album and single) releases to Spotify", https://doi.org/10.34894/DX857S, DataverseNL.
 
-If you are a (potential) user of the data, please directly access its [documentation here](doc/readme-data.txt).
+If you are a (potential) user of the data, please directly access its [documentation here](doc/readme-data.txt). Use this repository to maintain the dataset, or jump-start your own workflow to release data to the public.
+
+Maintainer: h.datta@tilburguniversity.edu
 
 <!-- remove if necessary-->
-__Note:__ The data set is *not* released to the public yet (expected end of 2020). For questions, please mail h.datta@tilburguniversity.edu. The documentation of the data
-can already be accessed in `doc\readme-data.txt`.
+__Note:__ The data set is not released to the public yet (expected end of 2020). For questions, get in touch via email, please.
 <!-- -->
-
-__Use this repository to *maintain* the dataset.__
 
 ## Setup
 
