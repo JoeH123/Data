@@ -14,7 +14,7 @@ __Note:__ The data set is not released to the public yet (expected end of 2020).
 
 ## Setup
 
-* Obtain a valid API key from Dataverse ("API Token" in the main menu), paste the key in `credentials.txt`.
+* Obtain a valid API key from Dataverse ("API Token" in the main menu), and set environment variable (name of envir. variable: DATAVERSE_TOKEN)
 * Install Java
 * Download the most recent version of the [Dataverse uploading tool](https://github.com/GlobalDataverseCommunityConsortium/dataverse-uploader/) (run `bash init.sh` on Mac, or paste the link contained in the file in your browser on Windows)
 
@@ -33,12 +33,12 @@ __Note:__ The data set is not released to the public yet (expected end of 2020).
 
 ## Workflow
 
-* __Archive confidential raw data on Dataverse__: `push_raw.sh` pushes the raw data to Dataverse (done once, `bash push_raw.sh`; or paste code into your command prompt on Windows). Remember to __restrict access to the folder__, by editing the file/directory permissions directly on Dataverse.
+* __Archive confidential raw data on Dataverse__: `push_raw.bat` pushes the raw data to Dataverse; or paste code into your command prompt on Windows). Remember to __restrict access to the folder__, by editing the file/directory permissions directly on Dataverse.
 
 * __Add/change data preparation code__ (e.g., to anonymize data) in `src\`; run this code yourself to produce derivate datasets for the (to-be-made public) `release\` folder.
 
-* __Release public versions__ of the data to Dataverse: `release.sh` pushes (updates) to the documentation in `doc\`, or the prepared data set in `release\`.
+* __Release public versions__ of the data to Dataverse: `release.bat` pushes (updates) to the documentation in `doc\`, or the prepared data set in `release\`.
 
 * Done? Publish your data set on Dataverse (via the web interface).
 
-Note: API keys used in the `.sh` scripts is deprecated.
+Note: Any API keys contained in (historical) source code are deprecated.

@@ -1,6 +1,6 @@
 require(data.table)
 
-fns<-list.files(path='../rawdata-confidential/', pattern='*.csv', full.names=T)
+fns<-list.files(path='../rawdata-confidential/sorting_hat/csv/', pattern='*.csv', full.names=T)
 
 dts<-lapply(fns, fread, encoding='UTF-8')
 
